@@ -20,7 +20,7 @@ You simply add a single line at the end of your statement.</p>
 
 ## SQL-Logic
 ```SQL
-1	FOR XML PATH(''), TYPE
+FOR XML PATH(''), TYPE
 ```	
 
 You can do this after any statement and see what kind of results you get. They will be displayed in another Tab. You'll get the XML syntax with that but there's another way you can do it below.
@@ -30,13 +30,7 @@ Example:
 
 ## SQL-Logic
 ```SQL
-1
-2
-3
-4
-5
-6
-7	use master;
+use master;
 set nocount on
 select
 name
